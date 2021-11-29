@@ -1,0 +1,41 @@
+*{
+    font-weight: 400;
+    font-family: verdana;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    position: relative;
+    background: url('../image/me2.jpg') top right no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-image: linear-gradient(to right top, #4f3745, #603658, #6b3570, #6e388d, #6340af, #6641ba, #6a43c6, #6d44d1, #8c39c3, #a32db5, #b520a5, #c21495); */
+}
+ul{
+    list-style: none;
+   }
+a{
+    text-decoration: none;
+}
+.com-color a{
+    color: rgb(240, 184, 112);
+}
+.com-color a:hover{
+    color: rgb(230, 130, 147);
+}
+.nav-menu #nav-menu-list{
+    display: flex;
+    color: white ;
+    opacity: 0.9;
+}
+.nav-menu #nav-menu-list li{
+    font-size:14px;
+    letter-spacing: 2px;
+}
+.nav-menu a{
+    color: white;
+    opacity: 0.9;
+}

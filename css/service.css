@@ -1,0 +1,121 @@
+@import url('./base.css');
+@import url('common.css');
+/* css header */
+ /* css main content */
+ .service-item{
+     border-radius: 2px;
+     font-size: 15px;
+     margin-bottom: 8px;
+     color: white;
+     opacity: 0.9;
+     border: 1px solid #ccc ;
+     width:32%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+     /* grid-gap: 8px; */
+     padding: 12px;
+     transition: all 0.2s ease-in-out;
+     background-color: rgba(0, 0, 0, 0.3);
+ }
+ .service-item:hover{
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+     background-color: rgb(60, 112, 60);
+    }
+ .service-item:hover .box{
+     background-color:rgb(25, 38, 41);
+ }
+ .service-item:hover .box i{
+    color: tan;
+ }
+ .service-item .box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 45px;
+     height: 45px;
+     border-radius: 3px;
+     background-color: tan;
+     margin-bottom: 8px;
+ }
+ .service-item .box i{
+     color:#000;
+     font-size: 16px;
+     
+ }
+.service-item h4{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.service-item p{
+    line-height: 22px;
+}
+  
+  /* css social */
+ .service-item .social-icon{
+     margin-top: 4px;
+ }
+ .service-item .social-icon i{
+    color: rgb(240, 184, 112);
+     font-size: 22px;
+     padding: 0 2px;
+     transition: all 0.2s ease-in-out;
+ }
+ .service-item .social-icon i:hover{
+     opacity: 0.5;
+     cursor: pointer;
+ }
+
+  /* css reputations */
+  .service-item-rep{
+
+  }
+  .service-rep-item{
+      display: flex;
+      padding-top: 24px;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .service-rep-item .rep-item-img{
+      width: 25%;
+      float: left;
+      border-radius: 50%;
+      margin-right: 8px;
+  }
+   /* css works */ 
+   .service-item-work{
+        position: relative;
+        height: 20px;
+        background-color: white;
+        width: 100%;
+       margin-top: 6px;
+   }
+   .item-work-percent{
+       display: flex;
+       align-items: center;
+       padding-left: 8px;
+       font-size: 12px;
+       height: 100%;
+       background-color: rgb(29, 116, 173);
+   }
+   /* css project */
+.service-item .down-app{
+    margin-top: 24px;
+    display: block;
+}
+.down-app .apps{
+    margin-left: 34px;
+    margin-bottom: 16px;
+    width: 68%;
+}
+.down-app .apps:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.down-app .apps a{
+    text-decoration: none;
+}
+.down-app .apps .apps-item{
+    width: 100%;
+    border-radius: 4px;
+}
